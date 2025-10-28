@@ -1,0 +1,19 @@
+⁉️ Last CG lab, we practiced this: 
+Question-1: Write a C/C++ OpenGL program to draw a square on the screen. The square should move automatically from left to right across the window.
+- Use glutTimerFunc() to create smooth continuous motion.
+- The square should start from the left side of the window and stop when it reaches the right edge.
+- Set the background to black and the square color to yellow.
+- Use simple translation logic without any key press control.
+
+Question-2: Write a C/C++ OpenGL program to draw a square on the window. Implement interactive translation of the square such that:
+- Pressing the Right Arrow key moves the square to the right.
+- The square should move only while the key is pressed and stop immediately when the key is released.
+- The movement should be smooth, using glutTimerFunc() for continuous updates.
+- The program should terminate automatically when the square reaches the right edge of the window.
+- Use glutSpecialFunc() and glutSpecialUpFunc() to handle key press and release events.
+
+Question-3: Write a C/C++ OpenGL program to draw a square at the center of the window. Implement interactive scaling for the square such that:
+- Pressing the 'u' key increases the size of the square (scales up).
+- Pressing the 'd' key decreases the size of the square (scales down).
+-When no key is pressed, the square should remain still at its current size.
+- Use glutTimerFunc() to smoothly update the scaling and glutKeyboardFunc() / glutKeyboardUpFunc() to handle key press and release.
